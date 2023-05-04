@@ -7,7 +7,7 @@ const ChooseForm = () => {
 
     return (
         <div>
-            {/* <SideNavbarDoc /> */}
+            <SideNavbarDoc />
             <div className="chooseForm">
                 <h1>Выберите форму заявления</h1>
                 <div className="diffForm">

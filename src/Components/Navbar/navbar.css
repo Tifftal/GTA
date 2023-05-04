@@ -5,10 +5,11 @@
     display: grid;
     grid-template-columns: 20% 15% 15% 17% 15% 20%;
     grid-auto-rows: 100%;
-    grid-column-gap: 3%;
+    /* grid-column-gap: 3%; */
     box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
     position: sticky;
     top: 0;
+    align-items: center;
 }
 
 .item a {
@@ -25,8 +26,7 @@
 }
 
 .title {
-    margin-top: 5%;
-    margin-left: 15%;
+    /* margin-top: 5%; */
     transition: 0.5s;
     text-align: center;
 }
@@ -42,14 +42,14 @@
 }
 
 .title p {
-    padding-right: 2%;
+    margin-left: 10%;
     font-size: 280%;
     font-weight: 800;
     color: var(--contrast-color);
 }
 
 .title img {
-    padding-top: 15%;
+    padding-top: 22%;
     width: 15%;
     height: 15%;
 }

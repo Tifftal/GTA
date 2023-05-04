@@ -7,7 +7,7 @@ const PSI = () => {
 
     return (
         <div>
-            {/* <SideNavbarDoc /> */}
+            <SideNavbarDoc />
             <div className="PSI">
                 <h1>Загрузите документ на проверку</h1>
                 <button>Выбрать файл</button>

@@ -7,7 +7,7 @@ const OS = () => {
 
     return (
         <div>
-            {/* <SideNavbarDoc /> */}
+            <SideNavbarDoc />
             <div className="OS">
                 <h1>Загрузите документ на проверку</h1>
                 <button>Выбрать файл</button>

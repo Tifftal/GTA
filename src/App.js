@@ -19,11 +19,11 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Main />}></Route>
           <Route path="/document" element={<Document/>}></Route>
-          {/* <Route path="/statement" element={<ChooseForm/>}></Route> */}
-          {/* <Route path="/form17" element={<Form17/>}></Route>
+          <Route path="/statement" element={<ChooseForm/>}></Route> 
+          <Route path="/form17" element={<Form17/>}></Route>
           <Route path="/os" element={<OS/>}></Route>
           <Route path="/psi" element={<PSI/>}></Route>
-          <Route path="/property" element={<Property/>}></Route> */}
+          <Route path="/property" element={<Property/>}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

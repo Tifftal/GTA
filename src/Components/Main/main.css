@@ -57,10 +57,12 @@
     border-radius: 5px;
     padding-left: 5%;
     width: 70%;
+    font-size: 90%;
 }
 
 .Form button {
     margin-top: 5%;
+    margin-bottom: 2%;
     width: 60%;
     text-decoration: none;
     border: none;
