@@ -1,0 +1,94 @@
+.containerMain {
+    height: 100vh;
+}
+
+.welcomeText {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.privet {
+    margin: 30% 5% 10% 10%;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+}
+
+.privet p {
+    padding: 7%;
+    text-align: left;
+    font-size: 150%;
+    font-weight: 300;
+}
+
+.grid2 {
+    margin: 5% 15% 5% 20%; 
+}
+
+.grid2 p {
+    padding: 3% 3% 2% 3%;
+    color: var(--contrast-color);
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.registration {
+    padding: 8% 3% 2% 3%;
+    color: var(--contrast-color);
+    text-align: center;
+    font-size: 120%;
+    font-weight: 600;
+    background-color: var(--dark-color);
+    border-radius: 10px;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form input {
+    margin-bottom: 3%;
+    height: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5%;
+    width: 70%;
+}
+
+.Form button {
+    margin-top: 5%;
+    width: 60%;
+    text-decoration: none;
+    border: none;
+    background: var(--contrast-color);
+    border-radius: 10px;
+    box-shadow: 0.3em 0.3em 1em rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 130%;
+    font-weight: 500;
+    transition: 0.5s;
+    height: 40px;
+}
+
+.Form button:hover {
+    background-color: white;
+    color: var(--contrast-color);
+}
+
+.registration a {
+    padding: 3% 3% 2% 3%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 300; 
+    transition: 0.5s;
+    color: var(--contrast-color);
+    text-decoration: none;
+}
+
+.registration a:hover {
+    color: white;
+}

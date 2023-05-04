@@ -1,0 +1,38 @@
+.sideNav {
+    top: 13%;
+    height: auto;
+    width: 18%;
+    background-color: var(--dark-color);
+    position: fixed;
+    bottom: 19%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1em 0em 1em rgba(7, 10, 17, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.sideNav .default {
+    text-decoration: none;
+    text-align: left;
+    padding: 10% 5% 0 10%;
+    color: white;
+    font-size: 110%;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.sideNav a:hover {
+    color: var(--contrast-color);
+}
+
+.active {
+    text-decoration: none;
+    text-align: left;
+    padding: 10% 5% 0 10%;
+    color: var(--contrast-color);
+    font-size: 110%;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
