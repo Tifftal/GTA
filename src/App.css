@@ -2,34 +2,12 @@
   text-align: center;
   margin: 0%;
   padding: 0%;
-  background-color: #161e35;
-  color: white;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+  background-color: #E4E4E4;
+  overflow-x: hidden;
 }
 
 :root {
-  --main-color: #161e35;
-  --light-color: #5F6566;
-  --contrast-color: #FF7C00;
-  --dark-color: #293659;
+  --main-color: #1C73B1;
+  --light-color: #8DB9D8;
+  --shadow-color: #00497D;
 }

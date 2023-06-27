@@ -10,7 +10,7 @@ const Document = () => {
     return (
         <div className="document">
             <SideNavbarDoc />
-            <h1>Выберите документ</h1>
+            {/* <h1>Выберите документ</h1> */}
             {Active.statement === "active" ?
             console.log("asd") :
             null}
